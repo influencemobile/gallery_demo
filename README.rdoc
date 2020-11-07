@@ -1,35 +1,3 @@
-== README
 
-* clone github repo locally
-
-
-* install homebrew
-
-  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" 
-
-* install ruby
-
-brew install rbenv
-rbenv install 2.5.8
-rbenv rehash
-
-* install sqlite
-brew install sqlite
-
-* setup rails / project
-  * gem install bundler
-  * bundle install
-  * rake db:migrate
-  * rake db:seed
-
-* config db on rails app
-
-* run tests...?
-
-* run server, see viz...?
-
-rails s
-
-browser: localhost:3000
 
 

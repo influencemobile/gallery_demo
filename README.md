@@ -1,24 +1,24 @@
-# README
+== README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* clone github repo locally
 
-Things you may want to cover:
+* prerequisites
+  * ruby version 2.5.8 or higher
 
-* Ruby version
+  * sqlite3 (you might already have this)
 
-* System dependencies
+* setup rails / project
+  * gem install bundler
+  * bundle install
+  * rake db:migrate
+  * rake db:seed
 
-* Configuration
+* run server
 
-* Database creation
+`rails s`
 
-* Database initialization
+https://localhost:3000/artists
+https://localhost:3000/galleries
+https://localhost:3000/paintings
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
