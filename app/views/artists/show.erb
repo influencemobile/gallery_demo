@@ -1,0 +1,19 @@
+<h2><%= "Profile for: #{@artist.name}" %></h2>
+
+<label>Name:</label>
+<%= @artist.name %><br/>
+
+<label>Age:</label>
+<%= @artist.age %><br/>
+
+<label>Experience:</label>
+<%= @artist.experience_level %><br>
+
+<label>Paintings:</label>
+  <ul>
+    <% @artist.paintings.each do |painting| %>
+    <li><%= link_to painting.name, painting %></li>
+    <% end %>
+  </ul>
+
+<%= button_to 'Delete Artist!', @artist, method: :delete %>
