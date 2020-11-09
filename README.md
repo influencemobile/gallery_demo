@@ -44,3 +44,6 @@ https://localhost:3000/paintings
   * the process can be triggered/refreshed manually, or automatically, or at time of viewing
 
   * bonus points for storing the results in a new table
+
+  * the exercise is based on this excellent tutorial: https://medium.com/@gaidaescobar/build-a-very-basic-ruby-on-rails-app-e2ac88c47f8c
+  
