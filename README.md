@@ -45,5 +45,5 @@ https://localhost:3000/paintings
 
   * bonus points for storing the results in a new table
 
-  * the exercise is based on this excellent tutorial: https://medium.com/@gaidaescobar/build-a-very-basic-ruby-on-rails-app-e2ac88c47f8c
-  
+* the exercise is based on this excellent tutorial: https://medium.com/@gaidaescobar/build-a-very-basic-ruby-on-rails-app-e2ac88c47f8c
+
