@@ -1,0 +1,9 @@
+<h2>Solutions</h2>
+
+<h4>
+  <ul>
+    <% @solutions.each do |solution| %>
+	<li><%= link_to solution.description, solution %></li><br>
+    <% end %>
+  </ul>
+</h4>

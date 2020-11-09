@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_06_232918) do
+ActiveRecord::Schema.define(version: 2020_11_09_044750) do
 
   create_table "artists", force: :cascade do |t|
     t.string "name"
@@ -36,6 +36,22 @@ ActiveRecord::Schema.define(version: 2020_11_06_232918) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["artist_id"], name: "index_paintings_on_artist_id"
     t.index ["gallery_id"], name: "index_paintings_on_gallery_id"
+  end
+
+  create_table "results", force: :cascade do |t|
+    t.text "description"
+    t.integer "value"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "solutions", force: :cascade do |t|
+    t.text "description"
+    t.text "painting"
+    t.text "artist"
+    t.text "gallery"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   add_foreign_key "paintings", "artists"
